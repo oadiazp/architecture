@@ -1,0 +1,7 @@
+{menu:[{"id":"1_1",	"id_padre":"1_1",	"icono":"estructura",		"text":"XXX"},
+{"id":"1_2",	"id_padre":"1_2",	"icono":"auditoria",		"text":"Auditoria"},
+{"id":"1_3",	"id_padre":"1_3",	"icono":"configuracion",	"text":"Configuracion"},
+{"id":"1_4",	"id_padre":"1_4",	"icono":"contabilidad",		"text":"Sistema contable"},
+{"id":"1_5",	"id_padre":"1_5",	"icono":"capitalhumano",	"text":"Capital humano"},
+{"id":"1_6",	"id_padre":"1_6",	"icono":"comprobante",		"text":"comprobante"},
+{"id":"1_7",	"id_padre":"1_7",	"icono":"tmpSeguridad",		"text":"Tmp Seguridad"}]}

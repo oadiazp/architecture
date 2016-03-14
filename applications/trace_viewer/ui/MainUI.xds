@@ -1,0 +1,107 @@
+{
+	"projectId": "AFCC02FD-BE95-4F37-98FD-C6B7050925EE",
+	"settings": {
+		"urlPrefix": "http://localhost/",
+		"spacesToIndent": 4,
+		"codeGenFormat": "Class",
+		"extPath": "http://extjs.cachefly.net/ext-3.2.1/",
+		"exportPath": ".",
+		"lineEnding": "LF"
+	},
+	"xdsVersion": "xds-1.0.2.14",
+	"components": [
+		{
+			"id": "MyViewport",
+			"cid": "viewport",
+			"jsClass": "XMPP",
+			"snapToGrid": 10,
+			"userConfig": {
+				"width": 523,
+				"layout": "border"
+			},
+			"cn": [
+				{
+					"id": "MyTreePanel",
+					"cid": "treepanel",
+					"jsClass": "MyTreePanel",
+					"snapToGrid": 10,
+					"userConfig": {
+						"title": "Contactos",
+						"region": "west",
+						"width": 136
+					},
+					"cn": [
+						{
+							"id": "MyAsyncTreeNode",
+							"cid": "asynctreenode",
+							"jsClass": "MyAsyncTreeNode",
+							"dock": "root",
+							"snapToGrid": 10,
+							"userConfig": {
+								"text": "Tree Node"
+							}
+						},
+						{
+							"id": "MyTreeLoader",
+							"cid": "treeloader",
+							"jsClass": "MyTreeLoader",
+							"dock": "loader",
+							"snapToGrid": 10
+						}
+					]
+				},
+				{
+					"id": "MyTabPanel",
+					"cid": "tabpanel",
+					"jsClass": "MyTabPanel",
+					"snapToGrid": 10,
+					"userConfig": {
+						"activeTab": 0,
+						"region": "center",
+						"title": "Conversaciones"
+					}
+				}
+			]
+		}
+	],
+	"stores": [
+		{
+			"id": "MyStore",
+			"cid": "jsonstore",
+			"jsClass": "MyStore",
+			"snapToGrid": 10,
+			"userConfig": {
+				"storeId": "MyStore"
+			},
+			"cn": [
+				{
+					"id": "MyField",
+					"cid": "datafield",
+					"jsClass": "MyField",
+					"snapToGrid": 10,
+					"userConfig": {
+						"name": "field"
+					}
+				},
+				{
+					"id": "MyField1",
+					"cid": "datafield",
+					"jsClass": "MyField1",
+					"snapToGrid": 10,
+					"userConfig": {
+						"name": "field"
+					}
+				},
+				{
+					"id": "MyField2",
+					"cid": "datafield",
+					"jsClass": "MyField2",
+					"snapToGrid": 10,
+					"userConfig": {
+						"name": "field"
+					}
+				}
+			]
+		}
+	]
+}

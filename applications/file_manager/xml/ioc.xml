@@ -1,0 +1,15 @@
+<root>
+    <auth library = 'auth_lib'>
+        <get_entidad method = 'get_entidad'/>
+        <get_user method = 'get_user'/>
+    </auth>
+
+    <admin library = 'admin_lib'>
+        <acl method = 'acl'/>
+        <funcs_by_module method = 'funcs_by_module'/>
+        <has_func_access method = 'has_func_access'/>
+        <menu method = 'menu'/>
+        <get_user_by_id method = 'get_user_by_id'/>
+    </admin>
+
+</root>

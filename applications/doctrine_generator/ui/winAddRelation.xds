@@ -1,0 +1,108 @@
+{
+	"name": "winAddRelation.xds",
+	"projectId": "F304731D-1F0E-4AC7-B953-85B13401C0C8",
+	"settings": {
+		"urlPrefix": "http://localhost/",
+		"spacesToIndent": 4,
+		"codeGenFormat": "Class",
+		"extPath": "http://extjs.cachefly.net/ext-3.2.1/",
+		"exportPath": ".",
+		"lineEnding": "CRLF",
+		"instantiateStore": true,
+		"exportXDSFiles": true,
+		"genTimestamps": true
+	},
+	"xdsVersion": "xds-1.0.3.2",
+	"components": [
+		{
+			"id": "MyWindow",
+			"cid": "window",
+			"jsClass": "Relación",
+			"snapToGrid": 10,
+			"userConfig": {
+				"title": "Relaci&oacute;n",
+				"width": 266,
+				"height": 196,
+				"frame": true,
+				"closable": false,
+				"modal": true
+			},
+			"cn": [
+				{
+					"id": "MyForm",
+					"cid": "form",
+					"jsClass": "MyForm",
+					"snapToGrid": 10,
+					"userConfig": {
+						"title": "",
+						"frame": true,
+						"height": 167
+					},
+					"cn": [
+						{
+							"id": "MyCombo",
+							"cid": "combobox",
+							"jsClass": "MyCombo",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Tipo",
+								"anchor": "100%"
+							}
+						},
+						{
+							"id": "MyCombo1",
+							"cid": "combobox",
+							"jsClass": "MyCombo1",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Tabla origen",
+								"anchor": "100%"
+							}
+						},
+						{
+							"id": "MyCombo2",
+							"cid": "combobox",
+							"jsClass": "MyCombo2",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Campo origen",
+								"anchor": "100%"
+							}
+						},
+						{
+							"id": "MyCombo3",
+							"cid": "combobox",
+							"jsClass": "MyCombo3",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Tabla destino",
+								"anchor": "100%"
+							}
+						},
+						{
+							"id": "MyCombo4",
+							"cid": "combobox",
+							"jsClass": "MyCombo4",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Campo destino",
+								"anchor": "100%"
+							}
+						},
+						{
+							"id": "MyCombo5",
+							"cid": "combobox",
+							"jsClass": "MyCombo5",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Tabla puente",
+								"anchor": "100%"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": []
+}

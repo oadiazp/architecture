@@ -1,0 +1,48 @@
+.add {
+    background-image:url(../img/add.gif) !important;
+}
+
+.printer {
+    background-image:url(../img/printer.ico) !important;
+}
+
+.nota {
+    background-image:url(../img/icono_nota.jpg) !important;
+}
+
+.clasif {
+    background-image:url(../img/clasif.jpg) !important;
+}
+
+.option {
+    background-image:url(../img/plugin.gif) !important;
+}
+
+.ref {
+    background-image:url(../img/globe.gif) !important;
+}
+
+.remove {
+    background-image:url(../img/delete.gif) !important;
+}
+
+.usuarios {
+    background-image:url(../img/user_add.png) !important;
+}
+
+.adicionar_usuario {
+    background-image:url(../img/user_add.png) !important;
+}
+
+.eliminar_usuario {
+    background-image:url(../img/user_delete.png) !important;
+}
+
+.iconoERROR{ height:32px;width:32px; background-image:url(../img/icon-error.gif);}
+
+.icono_error{ height:32px;width:10px; background-image:url(../img/icon-error.gif); background-repeat: no-repeat}
+
+.expediente{background-image:url(../img/user_edit.png) !important;}
+
+.vp {background-image:url(../img/book.png) !important;}
+

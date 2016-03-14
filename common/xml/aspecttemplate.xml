@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <at1>
+        <pre>
+            <aspect  name = "auth" enabled = 'true'/>
+            <aspect  name = "beginTrans" enabled = 'true'/>
+        </pre>
+        <post>
+            <aspect  name = "demo" enabled = 'false'/>
+            <aspect  name = "commitTrans" enabled = 'true'/>
+        </post>
+        <failed>
+            <aspect  name = "demo" enabled = 'false'/>
+            <aspect  name = "failedTrans" enabled = 'true'/>
+        </failed>
+    </at1>
+
+    <at_auth>
+        <pre>
+            <aspect  name = "auth" enabled = 'true'/>
+            <aspect  name = "trace" enabled = 'true'/>
+        </pre>
+    </at_auth>
+	
+    <at_trace>
+        <pre>
+            <aspect  name = "auth" enabled = 'true'/>
+            <aspect  name = "access" enabled = 'true'/>
+            <aspect  name = "trace" enabled = 'true'/>
+        </pre>
+    </at_trace>
+
+    <at_validate>
+        <pre>
+            <aspect  name = "validate" enabled = 'true'/>
+        </pre>
+    </at_validate>
+</root>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<nomencladores>
+		<entidad>
+			<rem>
+				<bussiness>
+					<class name = 'ZCValidation_Entidad' method = 'validate' error = 'Esta entidad no puede ser eliminada pues tiene datos asociados'/>
+				</bussiness>
+			</rem>
+			<index>
+				<fields>
+					<field id = 'entidad' blankText = 'Entre el nombre de la entidad' regex = 'str' regexText = 'Nombre de entidad no válido'/>
+				</fields>
+			</index>
+		</entidad>
+	</nomencladores>
+</root>

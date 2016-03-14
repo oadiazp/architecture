@@ -1,0 +1,87 @@
+{
+	"projectId": "C353654F-312E-4B53-BD9B-AA82B557F5BA",
+	"settings": {
+		"urlPrefix": "http://localhost/",
+		"spacesToIndent": 4,
+		"codeGenFormat": "Class",
+		"extPath": "http://extjs.cachefly.net/ext-3.2.1/",
+		"exportPath": ".",
+		"lineEnding": "LF"
+	},
+	"xdsVersion": "xds-1.0.2.14",
+	"components": [
+		{
+			"id": "MyWindow",
+			"cid": "window",
+			"jsClass": "winLogIn",
+			"snapToGrid": 10,
+			"userConfig": {
+				"title": "Iniciar sesión",
+				"width": 284,
+				"height": 147,
+				"modal": true,
+				"closable": false
+			},
+			"cn": [
+				{
+					"id": "MyForm",
+					"cid": "form",
+					"jsClass": "MyForm",
+					"snapToGrid": 10,
+					"userConfig": {
+						"title": "",
+						"height": 117,
+						"frame": true
+					},
+					"cn": [
+						{
+							"id": "MyTextField",
+							"cid": "textfield",
+							"jsClass": "MyTextField",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Usuario",
+								"anchor": "100%",
+								"id": "user"
+							}
+						},
+						{
+							"id": "MyTextField1",
+							"cid": "textfield",
+							"jsClass": "MyTextField1",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Contraseña",
+								"anchor": "100%",
+								"inputType": "password",
+								"id": "passwd"
+							}
+						},
+						{
+							"id": "MyTextField2",
+							"cid": "textfield",
+							"jsClass": "MyTextField2",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Servidor",
+								"anchor": "100%",
+								"id": "server"
+							}
+						},
+						{
+							"id": "MyButton",
+							"cid": "button",
+							"jsClass": "MyButton",
+							"snapToGrid": 10,
+							"userConfig": {
+								"text": "Iniciar sesión",
+								"height": 22
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": []
+}

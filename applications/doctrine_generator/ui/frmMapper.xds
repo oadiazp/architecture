@@ -1,0 +1,349 @@
+{
+	"name": "frmMapper.xds",
+	"projectId": "C6404DBB-5AC3-49DF-BE1A-F82B315698E4",
+	"settings": {
+		"urlPrefix": "http://localhost/",
+		"spacesToIndent": 4,
+		"codeGenFormat": "Class",
+		"extPath": "http://extjs.cachefly.net/ext-3.2.1/",
+		"exportPath": ".",
+		"lineEnding": "CRLF",
+		"instantiateStore": true,
+		"exportXDSFiles": true,
+		"genTimestamps": true
+	},
+	"xdsVersion": "xds-1.0.3.2",
+	"components": [
+		{
+			"id": "MyWindow",
+			"cid": "window",
+			"jsClass": "MyWindow",
+			"snapToGrid": 10,
+			"userConfig": {
+				"title": "Mapeo",
+				"width": 475,
+				"height": 325
+			},
+			"cn": [
+				{
+					"id": "MyPanel",
+					"cid": "panel",
+					"jsClass": "MyPanel",
+					"snapToGrid": 10,
+					"userConfig": {
+						"title": "",
+						"layout": "form",
+						"frame": true,
+						"height": 298,
+						"width": 482
+					},
+					"cn": [
+						{
+							"id": "MyCombo",
+							"cid": "combobox",
+							"jsClass": "MyCombo",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Tabla",
+								"width": 206
+							}
+						},
+						{
+							"id": "MyTabPanel",
+							"cid": "tabpanel",
+							"jsClass": "MyTabPanel",
+							"snapToGrid": 10,
+							"userConfig": {
+								"activeTab": 1,
+								"title": "Relaciones",
+								"height": 262
+							},
+							"cn": [
+								{
+									"id": "MyPanel1",
+									"cid": "panel",
+									"jsClass": "MyPanel1",
+									"snapToGrid": 10,
+									"userConfig": {
+										"title": "Campos"
+									},
+									"cn": [
+										{
+											"id": "MyGrid",
+											"cid": "grid",
+											"jsClass": "MyGrid",
+											"snapToGrid": 10,
+											"userConfig": {
+												"title": "",
+												"store": "(none)",
+												"height": 234
+											},
+											"cn": [
+												{
+													"id": "MyColumn",
+													"cid": "gridcolumn",
+													"jsClass": "MyColumn",
+													"snapToGrid": 10,
+													"userConfig": {
+														"dataIndex": "string",
+														"header": "Campo",
+														"sortable": true,
+														"resizable": "-ext-undefined-",
+														"width": 150
+													}
+												},
+												{
+													"id": "MyColumn1",
+													"cid": "gridcolumn",
+													"jsClass": "MyColumn1",
+													"snapToGrid": 10,
+													"userConfig": {
+														"dataIndex": "number",
+														"header": "Tipo",
+														"sortable": true,
+														"resizable": "-ext-undefined-",
+														"width": 100,
+														"align": "right"
+													}
+												},
+												{
+													"id": "MyColumn2",
+													"cid": "gridcolumn",
+													"jsClass": "MyColumn2",
+													"snapToGrid": 10,
+													"userConfig": {
+														"dataIndex": "date",
+														"header": "Llave primaria",
+														"sortable": true,
+														"resizable": "-ext-undefined-",
+														"width": 100
+													}
+												},
+												{
+													"id": "MyColumn3",
+													"cid": "gridcolumn",
+													"jsClass": "MyColumn3",
+													"snapToGrid": 10,
+													"userConfig": {
+														"dataIndex": "bool",
+														"header": "Secuencia",
+														"sortable": true,
+														"resizable": "-ext-undefined-",
+														"width": 100
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "MyPanel2",
+									"cid": "panel",
+									"jsClass": "MyPanel2",
+									"snapToGrid": 10,
+									"userConfig": {
+										"title": "Relaciones",
+										"layout": "form",
+										"width": 482
+									},
+									"cn": [
+										{
+											"id": "MyPanel4",
+											"cid": "panel",
+											"jsClass": "MyPanel4",
+											"snapToGrid": 10,
+											"userConfig": {
+												"title": "Herencia",
+												"height": 59,
+												"layout": "column",
+												"defaults": "{\n columnWidth: .5,\n layout: 'form'\n}",
+												"width": 454,
+												"frame": true
+											},
+											"cn": [
+												{
+													"id": "MyForm",
+													"cid": "form",
+													"jsClass": "MyForm",
+													"snapToGrid": 10,
+													"userConfig": {
+														"title": "",
+														"width": 222,
+														"height": 71
+													},
+													"cn": [
+														{
+															"id": "MyCheckbox",
+															"cid": "checkbox",
+															"jsClass": "MyCheckbox",
+															"snapToGrid": 10,
+															"userConfig": {
+																"fieldLabel": "",
+																"boxLabel": "Hereda",
+																"anchor": "100%"
+															}
+														}
+													]
+												},
+												{
+													"id": "MyForm1",
+													"cid": "form",
+													"jsClass": "MyForm1",
+													"snapToGrid": 10,
+													"userConfig": {
+														"title": ""
+													},
+													"cn": [
+														{
+															"id": "MyCombo1",
+															"cid": "combobox",
+															"jsClass": "MyCombo1",
+															"snapToGrid": 10,
+															"userConfig": {
+																"fieldLabel": "Padre",
+																"anchor": "100%"
+															}
+														}
+													]
+												}
+											]
+										},
+										{
+											"id": "MyGrid1",
+											"cid": "grid",
+											"jsClass": "MyGrid1",
+											"snapToGrid": 10,
+											"userConfig": {
+												"title": "",
+												"store": "(none)",
+												"height": 177
+											},
+											"cn": [
+												{
+													"id": "MyColumn4",
+													"cid": "gridcolumn",
+													"jsClass": "MyColumn4",
+													"snapToGrid": 10,
+													"userConfig": {
+														"dataIndex": "string",
+														"header": "Tipo",
+														"sortable": true,
+														"resizable": "-ext-undefined-",
+														"width": 50
+													}
+												},
+												{
+													"id": "MyColumn5",
+													"cid": "gridcolumn",
+													"jsClass": "MyColumn5",
+													"snapToGrid": 10,
+													"userConfig": {
+														"dataIndex": "number",
+														"header": "Campo Origen",
+														"sortable": true,
+														"resizable": "-ext-undefined-",
+														"width": 100,
+														"align": "right"
+													}
+												},
+												{
+													"id": "MyColumn6",
+													"cid": "gridcolumn",
+													"jsClass": "MyColumn6",
+													"snapToGrid": 10,
+													"userConfig": {
+														"dataIndex": "date",
+														"header": "Tabla Destino",
+														"sortable": true,
+														"resizable": "-ext-undefined-",
+														"width": 100
+													}
+												},
+												{
+													"id": "MyColumn7",
+													"cid": "gridcolumn",
+													"jsClass": "MyColumn7",
+													"snapToGrid": 10,
+													"userConfig": {
+														"dataIndex": "bool",
+														"header": "Campo Destino",
+														"sortable": true,
+														"resizable": "-ext-undefined-",
+														"width": 100
+													}
+												},
+												{
+													"id": "MyColumn8",
+													"cid": "gridcolumn",
+													"jsClass": "MyColumn8",
+													"snapToGrid": 10,
+													"userConfig": {
+														"header": "Puente",
+														"sortable": true,
+														"resizable": "-ext-undefined-",
+														"width": 100
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"id": "MyPanel3",
+									"cid": "panel",
+									"jsClass": "MyPanel3",
+									"snapToGrid": 10,
+									"userConfig": {
+										"title": "Comportamientos"
+									},
+									"cn": [
+										{
+											"id": "MyTabPanel1",
+											"cid": "tabpanel",
+											"jsClass": "MyTabPanel1",
+											"snapToGrid": 10,
+											"userConfig": {
+												"activeTab": 2,
+												"title": "Eliminado suave"
+											},
+											"cn": [
+												{
+													"id": "MyPanel5",
+													"cid": "panel",
+													"jsClass": "MyPanel5",
+													"snapToGrid": 10,
+													"userConfig": {
+														"title": "Versionable"
+													}
+												},
+												{
+													"id": "MyPanel6",
+													"cid": "panel",
+													"jsClass": "MyPanel6",
+													"snapToGrid": 10,
+													"userConfig": {
+														"title": "Colecciones anidadas"
+													}
+												},
+												{
+													"id": "MyPanel7",
+													"cid": "panel",
+													"jsClass": "MyPanel7",
+													"snapToGrid": 10,
+													"userConfig": {
+														"title": "Eliminado suave"
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": []
+}

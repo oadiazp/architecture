@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <REG001 mensaje = 'Ese usuario ya existe.' tipo = 'P'/>
+    <REG002 mensaje = 'Ese correo ya existe.' tipo = 'P'/>
+    <REG003 mensaje = 'Ese usuario ya ha sido seleccionado, modifiquelo.' tipo = 'P'/>
+    <REG004 mensaje = 'Ese correo ya ha sido seleccionado.' tipo = 'P'/>
+    <REG005 mensaje = 'Las contraseñas no coinciden.' tipo = 'P'/>
+    <REG006 mensaje = 'Debe seleccionar una entidad' tipo = 'P'/>
+    <REG007 mensaje = 'Debe seleccionar un rol' tipo = 'P'/>
+
+    <IOC001 mensaje = 'Este contrato no existe.' tipo = 'P'/>
+    <IOC002 mensaje = 'La clase invocada por el contrato no posee el método.' tipo = 'P'/>
+</root>

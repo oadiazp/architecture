@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <autoloader path = 'classes'/> <!--  Ruta de las clases-->
+
+    <ldap server = '10.0.0.3'/> <!-- Servidor LDAP -->
+	
+	<date_format style = 'Y-m-d'/> <!-- Formato de las fechas -->
+	<time_format style = 'H:i'/> <!-- Formato de las horas -->
+</root>

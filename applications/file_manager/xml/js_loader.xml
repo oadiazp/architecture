@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <js>
+        <file name = 'ext-base'/>
+        <file name = 'ext-all'/>
+        <file name = 'ext-lang-es'/>
+        <file name = 'ciext-all'/>
+   </js>
+   <css>
+        <file name = 'css'/>
+        <file name = 'ext-all'/>
+   </css>
+</root>

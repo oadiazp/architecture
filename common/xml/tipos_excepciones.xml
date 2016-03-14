@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<root>
+    <L class = 'ZCException_Log'/>
+    <P class = 'ZCException_Presentation'/>
+    <LP class = 'ZCException_LogPresentation'/>
+</root>

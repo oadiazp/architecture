@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <auth class = 'ZCAspect_Auth' method = 'auth'/>
+    <access class = 'ZCAspect_Access' method = 'access'/>
+    <trace class = 'ZCAspect_Trace' method = 'trace'/>
+    <demo class = 'ZCAspect_Demo' method = 'demo'/>
+    <validate class = 'ZCAspect_Validation' method = 'validate'/>
+    
+    <beginTrans class = 'ZCAspect_Transaction' method = 'beginTransaction'/>
+    <commitTrans class = 'ZCAspect_Transaction' method = 'commitTransaction'/>
+    <failedTrans class = 'ZCAspect_Transaction' method = 'failedTransaction'/>
+</root>

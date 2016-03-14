@@ -1,0 +1,327 @@
+{
+    "settings": {
+        "urlPrefix": "http://localhost/",
+        "directAPI": "",
+        "spacesToIndent": 4,
+        "codeGenFormat": "Class",
+        "exportPath": ".",
+        "extPath": "http://extjs.cachefly.net/ext-3.3.1/",
+        "lineEnding": "CRLF",
+        "instantiateStore": true,
+        "exportXDSFiles": true,
+        "genTimestamps": true,
+        "appName": "MyApp"
+    },
+    "xdsVersion": "1.2.0",
+    "components": [
+        {
+            "id": "ExtBox1-ext-gen5117",
+            "type": "viewport",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "border",
+                "designer|userClassName": "FileManager.vpFileManager"
+            },
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen5180",
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout": "border",
+                        "title": "Manejador Web de Archivos v0.1",
+                        "designer|userClassName": "MyPanel",
+                        "layout|region": "center"
+                    },
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen6508",
+                            "type": "grid",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "width": 428,
+                                "title": "",
+                                "autoExpandColumn": "name",
+                                "designer|userClassName": "MyGrid1",
+                                "layout|region": "west"
+                            },
+                            "cn": [
+                                {
+                                    "id": "ExtBox1-ext-gen6528",
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "dataIndex": "icon",
+                                        "header": "",
+                                        "sortable": true,
+                                        "width": 30,
+                                        "designer|userClassName": "MyColumn1"
+                                    }
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen6540",
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "align": "",
+                                        "dataIndex": "name",
+                                        "header": "Nombre",
+                                        "id": "name",
+                                        "sortable": true,
+                                        "width": 100,
+                                        "designer|userClassName": "MyNumberColumn1"
+                                    }
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen6553",
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "dataIndex": "size",
+                                        "header": "Tama&ntilde;o",
+                                        "sortable": true,
+                                        "width": 100,
+                                        "designer|userClassName": "MyDateColumn1"
+                                    }
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen6565",
+                                    "type": "gridcolumn",
+                                    "reference": {
+                                        "name": "columns",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "dataIndex": "date",
+                                        "header": "Fecha",
+                                        "sortable": true,
+                                        "width": 100,
+                                        "designer|userClassName": "MyBooleanColumn1"
+                                    }
+                                },
+                                {
+                                    "id": "ExtBox1-ext-gen7916",
+                                    "type": "toolbar",
+                                    "reference": {
+                                        "name": "tbar",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyToolbar",
+                                        "dock": "tbar"
+                                    },
+                                    "cn": [
+                                        {
+                                            "id": "ExtBox1-ext-gen8281",
+                                            "type": "tbtext",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "text": "Ruta:",
+                                                "designer|userClassName": "MyText"
+                                            }
+                                        },
+                                        {
+                                            "id": "ExtBox1-ext-gen9153",
+                                            "type": "linkedinstance",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "FileManager.txtPath"
+                                            },
+                                            "iconCls": "icon-linkedinstance",
+                                            "masterInstanceId": "ExtBox1-ext-gen8537"
+                                        },
+                                        {
+                                            "id": "ExtBox1-ext-gen8753",
+                                            "type": "tbfill",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyFill"
+                                            }
+                                        },
+                                        {
+                                            "id": "ExtBox1-ext-gen10302",
+                                            "type": "linkedinstance",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "FileManager.btnUp"
+                                            },
+                                            "iconCls": "icon-linkedinstance",
+                                            "masterInstanceId": "ExtBox1-ext-gen8859"
+                                        },
+                                        {
+                                            "id": "ExtBox1-ext-gen11284",
+                                            "type": "linkedinstance",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "FileManager.btnRoot"
+                                            },
+                                            "iconCls": "icon-linkedinstance",
+                                            "masterInstanceId": "ExtBox1-ext-gen8991"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen8537",
+            "type": "textfield",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "FileManager.txtPath",
+                "designer|userAlias": "mytextfield2"
+            }
+        },
+        {
+            "id": "ExtBox1-ext-gen8859",
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "..",
+                "designer|userClassName": "FileManager.btnUp",
+                "designer|userAlias": "mybutton"
+            }
+        },
+        {
+            "id": "ExtBox1-ext-gen8991",
+            "type": "button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "/",
+                "designer|userClassName": "FileManager.btnRoot",
+                "designer|userAlias": "mybutton1"
+            }
+        }
+    ],
+    "stores": [
+        {
+            "id": "ExtBox1-ext-gen13197",
+            "type": "jsonstore",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "storeId": "MyJsonStore",
+                "designer|userClassName": "MyJsonStore"
+            },
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen14268",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "icon",
+                        "designer|userClassName": "MyField"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen14277",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "name",
+                        "designer|userClassName": "MyField1"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen14286",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "size",
+                        "designer|userClassName": "MyField2"
+                    }
+                },
+                {
+                    "id": "ExtBox1-ext-gen14295",
+                    "type": "datafield",
+                    "reference": {
+                        "name": "fields",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "name": "date",
+                        "designer|userClassName": "MyField3"
+                    }
+                }
+            ]
+        }
+    ],
+    "framework": "ext33"
+}

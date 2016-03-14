@@ -1,0 +1,5 @@
+<root>
+  <inut>
+    <campo id="user" blankText="szdcdsf" regex="Letras" regexText="gfg" />
+  </inut>
+</root>

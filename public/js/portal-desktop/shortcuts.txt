@@ -1,0 +1,30 @@
+
+	arrayShortCuts: function(){
+		return new Array();
+	},
+	dameShortCuts: function(objson){
+		if (objson && objson.length){
+			for(var i=0; i<objson.length;i++){
+				if (objson[i].menu){
+					dameShortCuts(objson[i].menu);
+				}
+				if (objson[i].referencia){
+						arrayShortCuts.push({
+						id: objson[i].id,
+						text: objson[i].text,
+						ref: objson[i].referencia
+					});
+				}
+			} // for
+		}
+	}
+	
+	
+--------pintar una celda---------
+//le da formato a la fila número "aFila" según la clase CSS "aClass" y le asigna el tooltip con el texto "aDescripcion"
+function formatearFila(aClass,aFila,aDescripcion){ 
+	Ext.get(gpCasoUso.getView().getRow(aFila)).addClass(aClass); //getRow()
+	var a = new Ext.ToolTip({target:gpCasoUso.getView().getRow(aFila),title:'Descripcion: '+'<br />'+aDescripcion}); 
+} 
+
+.x-color-palette

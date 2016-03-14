@@ -1,0 +1,171 @@
+{
+	"name": "frmProject.xds",
+	"projectId": "8A35FF62-8C8D-4B12-ACE1-CDC266D7DC73",
+	"settings": {
+		"urlPrefix": "http://localhost/",
+		"spacesToIndent": 4,
+		"codeGenFormat": "Class",
+		"extPath": "http://extjs.cachefly.net/ext-3.2.1/",
+		"exportPath": ".",
+		"lineEnding": "CRLF",
+		"instantiateStore": true,
+		"exportXDSFiles": true,
+		"genTimestamps": true
+	},
+	"xdsVersion": "xds-1.0.3.2",
+	"components": [
+		{
+			"id": "MyWindow",
+			"cid": "window",
+			"jsClass": "MyWindow",
+			"snapToGrid": 10,
+			"userConfig": {
+				"title": "Crear proyecto",
+				"width": 615,
+				"height": 248,
+				"closable": false,
+				"layout": "border"
+			},
+			"cn": [
+				{
+					"id": "MyForm",
+					"cid": "form",
+					"jsClass": "MyForm",
+					"snapToGrid": 10,
+					"userConfig": {
+						"title": "",
+						"frame": true,
+						"region": "center"
+					},
+					"cn": [
+						{
+							"id": "MyCombo",
+							"cid": "combobox",
+							"jsClass": "MyCombo",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Gestor",
+								"anchor": "100%",
+								"id": "dbms",
+								"width": 429
+							}
+						},
+						{
+							"id": "MyTextField",
+							"cid": "textfield",
+							"jsClass": "MyTextField",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Servidor",
+								"anchor": "100%",
+								"id": "host",
+								"width": 442
+							}
+						},
+						{
+							"id": "MyTextField1",
+							"cid": "numberfield",
+							"jsClass": "MyTextField1",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Puerto",
+								"anchor": "100%",
+								"id": "port"
+							}
+						},
+						{
+							"id": "MyTextField2",
+							"cid": "textfield",
+							"jsClass": "MyTextField2",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Usuario",
+								"anchor": "100%",
+								"id": "user"
+							}
+						},
+						{
+							"id": "MyTextField3",
+							"cid": "textfield",
+							"jsClass": "MyTextField3",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Contrase&ntilde;a",
+								"anchor": "100%",
+								"id": "passwd",
+								"inputType": "password",
+								"width": 451
+							}
+						},
+						{
+							"id": "MyTextField4",
+							"cid": "textfield",
+							"jsClass": "MyTextField4",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Base de datos",
+								"anchor": "100%",
+								"id": "db"
+							}
+						},
+						{
+							"id": "MyCombo1",
+							"cid": "combobox",
+							"jsClass": "MyCombo1",
+							"snapToGrid": 10,
+							"userConfig": {
+								"fieldLabel": "Versión",
+								"anchor": "100%",
+								"id": "version"
+							}
+						},
+						{
+							"id": "MyButton",
+							"cid": "button",
+							"jsClass": "MyButton",
+							"snapToGrid": 10,
+							"userConfig": {
+								"text": "Conectar"
+							}
+						}
+					]
+				},
+				{
+					"id": "MyListView",
+					"cid": "listview",
+					"jsClass": "MyListView",
+					"snapToGrid": 10,
+					"userConfig": {
+						"columnResize": false,
+						"store": "(none)",
+						"region": "east",
+						"width": 300
+					},
+					"cn": [
+						{
+							"id": "MyColumn",
+							"cid": "lvbooleancolumn",
+							"jsClass": "MyColumn",
+							"snapToGrid": 10,
+							"userConfig": {
+								"header": "",
+								"width": 0.25
+							}
+						},
+						{
+							"id": "MyColumn1",
+							"cid": "lvcolumn",
+							"jsClass": "MyColumn1",
+							"snapToGrid": 10,
+							"userConfig": {
+								"header": "Tabla",
+								"align": "center"
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"stores": []
+}
